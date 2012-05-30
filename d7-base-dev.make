@@ -1,6 +1,14 @@
 ; Drupal 7 base dev profile
 ; https://github.com/milkmiruku/d7-base-dev
 
+
+; Drush Make API version
+api = 2
+
+; Core version. Aegir doesn't like just projects[] = "drupal" for some reason.
+core = 7.x
+
+
 ; General
 projects[] = views
 projects[] = ctools
@@ -18,7 +26,7 @@ projects[] = views_bulk_operations
 ; Development
 projects[] = devel
 projects[] = devel_themer
-projects[] = drupalforfirebug
+;projects[] = drupalforfirebug
 
 projects[] = masquerade
 
@@ -68,15 +76,12 @@ projects[] = adaptive_image
 ;mupload http://drupal.org/sandbox/vingborg/1138512
 ;/http://drupal.org/sandbox/pp/1244926
 
-
-; Libraries
-
-; Profiler simplifies Profiles with the .info
-libraries[profiler][download][type] = get
-libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz
-libraries[profiler][destination] = libraries
-
 ; TinyMCE is the WYSIWYG frontend lib
 libraries[tinymce][download][type] = get
 libraries[tinymce][download][url] = https://github.com/downloads/tinymce/tinymce/tinymce_3.3.9.4.zip
 libraries[tinymce][destination] = libraries
+
+
+; Profiler
+libraries[profiler][download][type] = get
+libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz

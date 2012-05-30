@@ -1,0 +1,76 @@
+; Core
+
+dependencies[] = path
+dependencies[] = search
+dependencies[] = syslog
+dependencies[] = dblog
+dependencies[] = help
+dependencies[] = block
+dependencies[] = menu
+dependencies[] = contextual
+
+dependencies[] = field_ui
+
+
+; General
+dependencies[] = views
+dependencies[] = ctools
+
+dependencies[] = token
+dependencies[] = entity
+
+
+; Admistration
+dependencies[] = admin_menu
+dependencies[] = module_filter
+dependencies[] = views_bulk_operations
+
+
+; Development
+dependencies[] = devel
+dependencies[] = devel_themer
+;dependencies[] = drupalforfirebug
+
+dependencies[] = masquerade
+
+dependencies[] = backup_migrate
+dependencies[] = backup_migrate_files
+
+
+; Settings as code
+dependencies[] = features
+dependencies[] = strongarm
+
+
+; Theming
+dependencies[] = fontyourface
+dependencies[] = block_class
+dependencies[] = compact_forms
+dependencies[] = semanticviews
+
+dependencies[] = styleguide
+
+;menu_block
+
+
+; SEO
+dependencies[] = pathauto
+dependencies[] = subpathauto
+dependencies[] = globalredirect
+dependencies[] = xmlsitemap
+
+
+; Performance
+dependencies[] = entitycache
+
+
+; Security
+dependencies[] = honeypot
+
+
+; Wysiwyg and image handling
+dependencies[] = wysiwyg
+dependencies[] = jquery_update
+
+dependencies[] = media
+dependencies[] = adaptive_image
