@@ -9,12 +9,23 @@ dependencies[] = block
 dependencies[] = menu
 dependencies[] = contextual
 
+dependencies[] = options
+dependencies[] = list
+dependencies[] = number
 dependencies[] = field_ui
+dependencies[] = file_entity
+
+dependencies[] = overlay
+dependencies[] = statistics
+dependencies[] = tracker
 
 
 ; General
-dependencies[] = views
 dependencies[] = ctools
+dependencies[] = page_manager
+
+dependencies[] = views
+dependencies[] = views_ui
 
 dependencies[] = token
 dependencies[] = entity
@@ -29,6 +40,9 @@ dependencies[] = views_bulk_operations
 ; Development
 dependencies[] = devel
 dependencies[] = devel_themer
+dependencies[] = devel_generate
+dependencies[] = admin_devel
+
 ;dependencies[] = drupalforfirebug
 
 dependencies[] = masquerade
@@ -44,10 +58,11 @@ dependencies[] = strongarm
 
 ; Theming
 dependencies[] = fontyourface
+dependencies[] = google_fonts_api
+
 dependencies[] = block_class
 dependencies[] = compact_forms
 dependencies[] = semanticviews
-
 dependencies[] = styleguide
 
 ;menu_block
