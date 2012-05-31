@@ -15,7 +15,7 @@ projects[] = ctools
 
 projects[] = token
 projects[] = entity
-
+projects[] = file_entity
 
 ; Admistration
 projects[] = admin_menu
