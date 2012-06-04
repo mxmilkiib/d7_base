@@ -15,7 +15,6 @@ dependencies[] = number
 dependencies[] = field_ui
 dependencies[] = file_entity
 
-dependencies[] = overlay
 dependencies[] = statistics
 dependencies[] = tracker
 
@@ -58,6 +57,7 @@ dependencies[] = strongarm
 
 ; Theming
 dependencies[] = fontyourface
+dependencies[] = fontyourface_ui
 dependencies[] = google_fonts_api
 
 dependencies[] = block_class
