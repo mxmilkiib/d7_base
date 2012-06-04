@@ -40,6 +40,8 @@ projects[] = strongarm
 
 
 ; Theming
+projects[] = omega
+
 projects[] = fontyourface
 projects[] = block_class
 projects[] = compact_forms
@@ -55,7 +57,7 @@ projects[] = pathauto
 projects[] = subpathauto
 projects[] = globalredirect
 projects[] = xmlsitemap
-
+projects[] = page_title
 
 ; Performance
 projects[] = entitycache

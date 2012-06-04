@@ -20,14 +20,16 @@ dependencies[] = tracker
 
 
 ; General
+dependencies[] = entity
+
 dependencies[] = ctools
 dependencies[] = page_manager
 
 dependencies[] = views
 dependencies[] = views_ui
 
+dependencies[] = context
 dependencies[] = token
-dependencies[] = entity
 
 
 ; Admistration
@@ -73,7 +75,7 @@ dependencies[] = pathauto
 dependencies[] = subpathauto
 dependencies[] = globalredirect
 dependencies[] = xmlsitemap
-
+dependencies[] = page_title
 
 ; Performance
 dependencies[] = entitycache
