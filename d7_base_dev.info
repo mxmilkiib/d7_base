@@ -1,5 +1,8 @@
-; Core
+core 7.x
+theme = sasson
+variables[admin_theme] = seven
 
+; Core
 dependencies[] = path
 dependencies[] = search
 dependencies[] = syslog

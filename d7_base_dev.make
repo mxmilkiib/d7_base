@@ -40,7 +40,7 @@ projects[] = strongarm
 
 
 ; Theming
-projects[] = omega
+projects[] = sasson
 
 projects[] = context
 projects[] = fontyourface
