@@ -42,6 +42,7 @@ projects[] = strongarm
 ; Theming
 projects[] = omega
 
+projects[] = context
 projects[] = fontyourface
 projects[] = block_class
 projects[] = compact_forms
