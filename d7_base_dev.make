@@ -70,6 +70,7 @@ projects[] = honeypot
 
 ; Wysiwyg and image handling
 projects[wysiwyg] = 2.x-dev
+; dev because features exporting
 projects[jquery_update] = 2.x-dev
 
 projects[media] = 2.x-dev
