@@ -69,7 +69,7 @@ projects[] = honeypot
 
 
 ; Wysiwyg and image handling
-projects[wysiwyg][type] = module
+projects[wysiwyg] = 2.x-dev
 projects[jquery_update] = 2.x-dev
 
 projects[media] = 2.x-dev
