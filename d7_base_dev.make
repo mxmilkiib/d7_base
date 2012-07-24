@@ -40,8 +40,6 @@ projects[] = strongarm
 
 
 ; Theming
-projects[] = zentropy
-
 projects[] = context
 projects[] = fontyourface
 projects[] = block_class
