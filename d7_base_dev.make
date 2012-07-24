@@ -1,5 +1,5 @@
 ; Drupal 7 base dev profile
-; https://github.com/milkmiruku/d7-base-dev
+; https://github.com/milkmiruku/d7_base_dev
 
 
 ; Drush Make API version
@@ -40,7 +40,7 @@ projects[] = strongarm
 
 
 ; Theming
-projects[] = sasson
+projects[] = zentropy
 
 projects[] = context
 projects[] = fontyourface
