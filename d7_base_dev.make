@@ -26,7 +26,10 @@ projects[] = views_bulk_operations
 ; Development
 projects[] = devel
 projects[] = devel_themer
+projects[] = simplehtmldom
+
 ;projects[] = drupalforfirebug
+
 
 projects[] = masquerade
 
