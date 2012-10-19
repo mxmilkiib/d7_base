@@ -1,7 +1,6 @@
 ; Drupal 7 base dev profile
 ; https://github.com/milkmiruku/d7_base_dev
 
-
 ; Drush Make API version
 api = 2
 
@@ -29,7 +28,6 @@ projects[] = devel_themer
 projects[] = simplehtmldom
 
 ;projects[] = drupalforfirebug
-
 
 projects[] = masquerade
 
@@ -77,15 +75,17 @@ projects[jquery_update] = 2.x-dev
 projects[media] = 2.x-dev
 projects[] = adaptive_image
 
+; Media
 ;plupload
 ;mupload http://drupal.org/sandbox/vingborg/1138512
 ;/http://drupal.org/sandbox/pp/1244926
 
+projects[] = libraries
+
 ; TinyMCE is the WYSIWYG frontend lib
 libraries[tinymce][download][type] = get
-libraries[tinymce][download][url] = https://github.com/downloads/tinymce/tinymce/tinymce_3.3.9.4.zip
+libraries[tinymce][download][url] = https://github.com/tinymce/tinymce/zipball/master
 libraries[tinymce][destination] = libraries
-
 
 ; Profiler
 libraries[profiler][download][type] = get
