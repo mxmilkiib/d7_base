@@ -1,4 +1,4 @@
-; Drupal 7 base dev profile
+; d7_base_dev .make file
 ; https://github.com/milkmiruku/d7_base_dev
 
 ; Drush Make API version
@@ -9,12 +9,13 @@ core = 7.x
 
 
 ; General
-projects[] = views
-projects[] = ctools
-
-projects[] = token
 projects[] = entity
 projects[] = file_entity
+
+projects[] = ctools
+projects[] = views
+
+projects[] = token
 
 
 ; Settings as code
@@ -74,6 +75,7 @@ projects[] = honeypot
 
 ; Wysiwyg and image handling
 projects[wysiwyg] = 2.x-dev
+
 ; dev because features exporting
 projects[jquery_update] = 2.x-dev
 
@@ -81,13 +83,13 @@ projects[jquery_update] = 2.x-dev
 ; Media
 projects[media] = 2.x-dev
 projects[] = adaptive_image
+
 ;plupload
 ;mupload http://drupal.org/sandbox/vingborg/1138512
 ;/http://drupal.org/sandbox/pp/1244926
 
 
 ; Libraries
-
 projects[] = libraries
 
 ; TinyMCE is the WYSIWYG frontend lib
@@ -106,4 +108,3 @@ projects[] = devel_themer
 projects[] = simplehtmldom
 
 ;projects[] = drupalforfirebug
-
