@@ -1,3 +1,6 @@
+; d7_base_dev distro .info file (for the profiler library)
+; https://github.com/milkmiruku/d7_base_dev
+
 core 7.x
 variables[admin_theme] = seven
 
@@ -30,28 +33,7 @@ dependencies[] = page_manager
 dependencies[] = views
 dependencies[] = views_ui
 
-dependencies[] = context
 dependencies[] = token
-
-
-; Admistration
-dependencies[] = admin_menu
-dependencies[] = module_filter
-dependencies[] = views_bulk_operations
-
-
-; Development
-dependencies[] = devel
-dependencies[] = devel_themer
-dependencies[] = devel_generate
-dependencies[] = admin_devel
-
-;dependencies[] = drupalforfirebug
-
-dependencies[] = masquerade
-
-dependencies[] = backup_migrate
-dependencies[] = backup_migrate_files
 
 
 ; Settings as code
@@ -59,17 +41,31 @@ dependencies[] = features
 dependencies[] = strongarm
 
 
+; Admistration
+dependencies[] = admin_menu
+dependencies[] = module_filter
+dependencies[] = views_bulk_operations
+
+dependencies[] = masquerade
+
+dependencies[] = backup_migrate
+dependencies[] = backup_migrate_files
+
+
 ; Theming
+dependencies[] = context
+dependencies[] = block_class
+dependencies[] = compact_forms
+
+;menu_block
+
+dependencies[] = semanticviews
+
 dependencies[] = fontyourface
 dependencies[] = fontyourface_ui
 dependencies[] = google_fonts_api
 
-dependencies[] = block_class
-dependencies[] = compact_forms
-dependencies[] = semanticviews
 dependencies[] = styleguide
-
-;menu_block
 
 
 ; SEO
@@ -78,6 +74,7 @@ dependencies[] = subpathauto
 dependencies[] = globalredirect
 dependencies[] = xmlsitemap
 dependencies[] = page_title
+
 
 ; Performance
 dependencies[] = entitycache
@@ -93,3 +90,12 @@ dependencies[] = jquery_update
 
 dependencies[] = media
 dependencies[] = adaptive_image
+
+
+; Development
+dependencies[] = devel
+dependencies[] = devel_themer
+dependencies[] = devel_generate
+dependencies[] = admin_devel
+
+;dependencies[] = drupalforfirebug
