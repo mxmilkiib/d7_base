@@ -54,6 +54,8 @@ projects[] = fences
 projects[] = fit_text
 projects[] = fontyourface
 
+projects[] = superfish
+
 projects[] = styleguide
 
 
