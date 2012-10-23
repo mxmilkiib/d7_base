@@ -29,6 +29,7 @@ projects[] = module_filter
 projects[] = views_bulk_operations
 
 projects[] = link
+projects[] = linkit
 projects[] = webform
 
 projects[] = piwik
@@ -55,6 +56,7 @@ projects[] = fit_text
 projects[] = fontyourface
 
 projects[] = superfish
+projects[] = nice_menus
 
 projects[] = styleguide
 
