@@ -83,6 +83,10 @@ projects[wysiwyg] = 2.x-dev
 ; dev because features exporting
 projects[jquery_update] = 2.x-dev
 
+projects[whatyousee][type] = module
+projects[whatyousee][download][type] = git
+projects[whatyousee][download][url] = https://github.com/milkmiruku/whatyousee.git
+
 
 ; Media
 projects[media] = 2.x-dev
