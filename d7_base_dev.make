@@ -42,6 +42,7 @@ projects[backup_migrate_files] = 1.x-dev
 
 ; Theming
 projects[] = empty_page
+projects[] = nodequeue
 projects[] = context
 projects[] = block_class
 projects[] = compact_forms
