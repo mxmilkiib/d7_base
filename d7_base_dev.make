@@ -102,7 +102,7 @@ projects[] = libraries
 
 ; TinyMCE is the WYSIWYG frontend lib
 libraries[tinymce][download][type] = get
-libraries[tinymce][download][url] = https://github.com/tinymce/tinymce/zipball/master
+libraries[tinymce][download][url] = http://github.com/downloads/tinymce/tinymce/tinymce_3.5.7.zip
 libraries[tinymce][destination] = libraries
 
 ; Profiler
