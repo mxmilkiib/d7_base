@@ -1,0 +1,101 @@
+; d7_beltane distro .info file (for the profiler library)
+; https://github.com/milkmiruku/d7_base_dev
+
+core 7.x
+variables[admin_theme] = seven
+
+; Core
+dependencies[] = path
+dependencies[] = search
+dependencies[] = syslog
+dependencies[] = dblog
+dependencies[] = help
+dependencies[] = block
+dependencies[] = menu
+dependencies[] = contextual
+
+dependencies[] = options
+dependencies[] = list
+dependencies[] = number
+dependencies[] = field_ui
+dependencies[] = file_entity
+
+dependencies[] = statistics
+dependencies[] = tracker
+
+
+; General
+dependencies[] = entity
+
+dependencies[] = ctools
+dependencies[] = page_manager
+
+dependencies[] = views
+dependencies[] = views_ui
+
+dependencies[] = token
+
+
+; Settings as code
+dependencies[] = features
+dependencies[] = strongarm
+
+
+; Admistration
+dependencies[] = admin_menu
+dependencies[] = module_filter
+dependencies[] = views_bulk_operations
+
+dependencies[] = masquerade
+
+dependencies[] = backup_migrate
+dependencies[] = backup_migrate_files
+
+
+; Theming
+dependencies[] = context
+dependencies[] = block_class
+dependencies[] = compact_forms
+
+;menu_block
+
+dependencies[] = semanticviews
+
+dependencies[] = fontyourface
+dependencies[] = fontyourface_ui
+dependencies[] = google_fonts_api
+
+dependencies[] = styleguide
+
+
+; SEO
+dependencies[] = pathauto
+dependencies[] = subpathauto
+dependencies[] = globalredirect
+dependencies[] = xmlsitemap
+dependencies[] = page_title
+
+
+; Performance
+dependencies[] = entitycache
+
+
+; Security
+dependencies[] = honeypot
+
+
+; Wysiwyg and image handling
+dependencies[] = wysiwyg
+dependencies[] = jquery_update
+
+dependencies[] = media
+dependencies[] = adaptive_image
+
+
+; Development
+dependencies[] = devel
+dependencies[] = devel_themer
+dependencies[] = devel_generate
+dependencies[] = admin_devel
+
+;dependencies[] = drupalforfirebug
