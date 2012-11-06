@@ -41,6 +41,7 @@ projects[backup_migrate_files] = 1.x-dev
 
 
 ; Theming
+projects[] = exclude_node_title
 projects[] = empty_page
 projects[] = nodequeue
 projects[] = context
