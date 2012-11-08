@@ -1,5 +1,5 @@
-; d7_base_dev .make file
-; https://github.com/milkmiruku/d7_base_dev
+; d7_base .make file
+; https://github.com/milkmiruku/d7_base
 
 ; Drush Make API version
 api = 2
