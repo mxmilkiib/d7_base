@@ -10,7 +10,7 @@ core = 7.x
 
 ; General
 projects[] = entity
-projects[] = file_entity
+projects[file_entity] = 2.x-dev
 
 projects[] = ctools
 projects[] = views
