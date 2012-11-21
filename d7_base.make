@@ -27,10 +27,12 @@ projects[] = strongarm
 projects[] = admin_menu
 projects[] = module_filter
 projects[] = views_bulk_operations
+projects[] = disable_messages
 
 projects[] = link
 projects[] = linkit
 projects[] = webform
+projects[] = select_or_other
 
 projects[] = piwik
 
@@ -73,6 +75,7 @@ projects[] = page_title
 
 ; Performance
 projects[] = entitycache
+projects[] = boost
 
 
 ; Security
