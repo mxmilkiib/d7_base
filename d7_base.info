@@ -53,7 +53,7 @@ dependencies[] = backup_migrate_files
 
 
 ; Theming
-dependencies[] = context
+; dependencies[] = context
 dependencies[] = block_class
 dependencies[] = compact_forms
 
@@ -78,6 +78,7 @@ dependencies[] = page_title
 
 ; Performance
 dependencies[] = entitycache
+dependencies[] = boost
 
 
 ; Security
@@ -86,6 +87,7 @@ dependencies[] = honeypot
 
 ; Wysiwyg and image handling
 dependencies[] = wysiwyg
+dependencies[] = whatyousee
 dependencies[] = jquery_update
 
 dependencies[] = media
