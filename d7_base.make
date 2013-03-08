@@ -33,10 +33,6 @@ projects[] = backup_migrate
 projects[backup_migrate_files] = 1.x-dev
 
 
-; Theming
-projects[] = styleguide
-
-
 ; SEO
 projects[] = pathauto
 projects[] = subpathauto
@@ -54,11 +50,16 @@ projects[] = boost
 projects[] = honeypot
 
 
-; Wysiwyg and image handling
-projects[wysiwyg] = 2.x-dev
+; Theming
+projects[] = styleguide
 
-; dev because features exporting
+projects[] = fontyourface
+
 projects[jquery_update] = 2.x-dev
+
+
+; Wysiwyg
+projects[wysiwyg] = 2.x-dev
 
 projects[whatyousee][type] = module
 projects[whatyousee][download][type] = git
@@ -67,11 +68,12 @@ projects[whatyousee][download][url] = https://github.com/milkmiruku/whatyousee.g
 
 ; Media
 projects[media] = 2.x-dev
-projects[] = adaptive_image
 
 ;plupload
 ;mupload http://drupal.org/sandbox/vingborg/1138512
 ;/http://drupal.org/sandbox/pp/1244926
+
+projects[] = adaptive_image
 
 
 ; Libraries
