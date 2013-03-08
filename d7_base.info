@@ -44,28 +44,11 @@ dependencies[] = strongarm
 ; Admistration
 dependencies[] = admin_menu
 dependencies[] = module_filter
-dependencies[] = views_bulk_operations
-
+dependencies[] = disable_messages
 dependencies[] = masquerade
 
 dependencies[] = backup_migrate
 dependencies[] = backup_migrate_files
-
-
-; Theming
-; dependencies[] = context
-dependencies[] = block_class
-dependencies[] = compact_forms
-
-;menu_block
-
-dependencies[] = semanticviews
-
-dependencies[] = fontyourface
-dependencies[] = fontyourface_ui
-dependencies[] = google_fonts_api
-
-dependencies[] = styleguide
 
 
 ; SEO
@@ -85,13 +68,24 @@ dependencies[] = boost
 dependencies[] = honeypot
 
 
-; Wysiwyg and image handling
-dependencies[] = wysiwyg
-dependencies[] = whatyousee
+; Theming
+dependencies[] = styleguide
+
+dependencies[] = fontyourface
+dependencies[] = fontyourface_ui
+
 dependencies[] = jquery_update
 
+
+; Wysiwyg
+dependencies[] = wysiwyg
+dependencies[] = whatyousee
+
+
+; Media
 dependencies[] = media
-dependencies[] = adaptive_image
+
+; dependencies[] = adaptive_image
 
 
 ; Development
