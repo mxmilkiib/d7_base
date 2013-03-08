@@ -26,16 +26,7 @@ projects[] = strongarm
 ; Admistration
 projects[] = admin_menu
 projects[] = module_filter
-projects[] = views_bulk_operations
 projects[] = disable_messages
-
-projects[] = link
-projects[] = linkit
-projects[] = webform
-projects[] = select_or_other
-
-projects[] = piwik
-
 projects[] = masquerade
 
 projects[] = backup_migrate
@@ -43,25 +34,6 @@ projects[backup_migrate_files] = 1.x-dev
 
 
 ; Theming
-projects[] = exclude_node_title
-projects[] = empty_page
-projects[] = nodequeue
-projects[] = context
-projects[] = block_class
-projects[] = compact_forms
-
-;menu_block
-
-projects[] = semanticviews
-; projects[] = semantic_blocks
-projects[] = fences
-
-projects[] = fit_text
-projects[] = fontyourface
-
-projects[] = superfish
-projects[] = nice_menus
-
 projects[] = styleguide
 
 
@@ -107,7 +79,7 @@ projects[] = libraries
 
 ; TinyMCE is the WYSIWYG frontend lib
 libraries[tinymce][download][type] = get
-libraries[tinymce][download][url] = http://github.com/downloads/tinymce/tinymce/tinymce_3.5.7.zip
+libraries[tinymce][download][url] = http://github.com/downloads/tinymce/tinymce/tinymce_3.5.8.zip
 libraries[tinymce][destination] = libraries
 
 ; Profiler
