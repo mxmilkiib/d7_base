@@ -73,7 +73,7 @@ projects[media] = 2.x-dev
 ;mupload http://drupal.org/sandbox/vingborg/1138512
 ;/http://drupal.org/sandbox/pp/1244926
 
-projects[] = adaptive_image
+projects[] = ais
 
 
 ; Libraries
